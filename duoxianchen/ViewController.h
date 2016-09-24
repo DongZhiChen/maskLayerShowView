@@ -10,6 +10,8 @@
 #import "ViewController11.h"
 @interface ViewController : UIViewController
 
+- (IBAction)BTN:(id)sender;
+@property (weak, nonatomic) IBOutlet UIView *Viewa;
 
 @end
 

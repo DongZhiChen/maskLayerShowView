@@ -10,4 +10,8 @@
 
 @interface V_dynamicViewShow : UIView
 
+
+@property (nonatomic,assign) BOOL isShow;
+
+
 @end

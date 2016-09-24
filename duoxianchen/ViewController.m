@@ -11,6 +11,7 @@
 #import "customButton.h"
 #import "V_dynamicViewShow.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *BTN;
 
 @end
 
@@ -20,16 +21,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
- 
-    
-    V_dynamicViewShow *view= [[V_dynamicViewShow alloc] initWithFrame:self.view.bounds];
+    V_dynamicViewShow *view = [[V_dynamicViewShow alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:view];
     
     
     
+
+    
+    
 }
 
--(void)clicknima:(UIButton *)sender{
+
+
+-(void)clicknima:(UIGestureRecognizer *)sender{
 
     NSLog(@"wfeeefe");
     
@@ -65,4 +69,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)BTN:(id)sender {
+    
+    NSLog(@"QQQQ");
+}
 @end

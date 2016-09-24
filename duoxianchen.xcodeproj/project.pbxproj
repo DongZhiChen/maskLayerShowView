@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		F209F56C1D883A2300B16FE3 /* customButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F209F56B1D883A2300B16FE3 /* customButton.m */; };
 		F22FE0C91D8EBB7900A7D81A /* V_dynamicViewShow.m in Sources */ = {isa = PBXBuildFile; fileRef = F22FE0C81D8EBB7900A7D81A /* V_dynamicViewShow.m */; };
+		F2E642171D917F4B006AFAA4 /* LoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E642161D917F4B006AFAA4 /* LoginButton.m */; };
+		F2EAE8111D9625520035EAFF /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2EAE8101D9625520035EAFF /* 11.jpg */; };
+		F2EAE8131D9626410035EAFF /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = F2EAE8121D9626410035EAFF /* 11.png */; };
 		F2F83EC81D86E28E0001B6A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F83EC71D86E28E0001B6A8 /* main.m */; };
 		F2F83ECB1D86E28E0001B6A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F83ECA1D86E28E0001B6A8 /* AppDelegate.m */; };
 		F2F83ECE1D86E28E0001B6A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F83ECD1D86E28E0001B6A8 /* ViewController.m */; };
@@ -43,6 +46,10 @@
 		F209F56B1D883A2300B16FE3 /* customButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customButton.m; sourceTree = "<group>"; };
 		F22FE0C71D8EBB7900A7D81A /* V_dynamicViewShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V_dynamicViewShow.h; sourceTree = "<group>"; };
 		F22FE0C81D8EBB7900A7D81A /* V_dynamicViewShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V_dynamicViewShow.m; sourceTree = "<group>"; };
+		F2E642151D917F4B006AFAA4 /* LoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginButton.h; sourceTree = "<group>"; };
+		F2E642161D917F4B006AFAA4 /* LoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginButton.m; sourceTree = "<group>"; };
+		F2EAE8101D9625520035EAFF /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 11.jpg; path = ../../11.jpg; sourceTree = "<group>"; };
+		F2EAE8121D9626410035EAFF /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11.png; path = ../../../Downloads/11.png; sourceTree = "<group>"; };
 		F2F83EC31D86E28E0001B6A8 /* duoxianchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = duoxianchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F83EC71D86E28E0001B6A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2F83EC91D86E28E0001B6A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +122,8 @@
 		F2F83EC51D86E28E0001B6A8 /* duoxianchen */ = {
 			isa = PBXGroup;
 			children = (
+				F2EAE8101D9625520035EAFF /* 11.jpg */,
+				F2EAE8121D9626410035EAFF /* 11.png */,
 				F2F83EC91D86E28E0001B6A8 /* AppDelegate.h */,
 				F2F83ECA1D86E28E0001B6A8 /* AppDelegate.m */,
 				F2F83ECC1D86E28E0001B6A8 /* ViewController.h */,
@@ -130,6 +139,8 @@
 				F2F83F7F1D86F4000001B6A8 /* UIViewController+Tracking.m */,
 				F22FE0C71D8EBB7900A7D81A /* V_dynamicViewShow.h */,
 				F22FE0C81D8EBB7900A7D81A /* V_dynamicViewShow.m */,
+				F2E642151D917F4B006AFAA4 /* LoginButton.h */,
+				F2E642161D917F4B006AFAA4 /* LoginButton.m */,
 			);
 			path = duoxianchen;
 			sourceTree = "<group>";
@@ -263,9 +274,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2EAE8131D9626410035EAFF /* 11.png in Resources */,
 				F2F83ED61D86E28E0001B6A8 /* LaunchScreen.storyboard in Resources */,
 				F2F83ED31D86E28E0001B6A8 /* Assets.xcassets in Resources */,
 				F2F83ED11D86E28E0001B6A8 /* Main.storyboard in Resources */,
+				F2EAE8111D9625520035EAFF /* 11.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +308,7 @@
 				F22FE0C91D8EBB7900A7D81A /* V_dynamicViewShow.m in Sources */,
 				F209F56C1D883A2300B16FE3 /* customButton.m in Sources */,
 				F2F83ECB1D86E28E0001B6A8 /* AppDelegate.m in Sources */,
+				F2E642171D917F4B006AFAA4 /* LoginButton.m in Sources */,
 				F2F83F7D1D86F3260001B6A8 /* ViewController11.m in Sources */,
 				F2F83EC81D86E28E0001B6A8 /* main.m in Sources */,
 			);
